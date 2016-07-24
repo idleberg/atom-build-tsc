@@ -45,6 +45,13 @@ Available targets:
 * `TypeScript` — compile script  to ECMAScript 3 (default)
 * `TypeScript (ES5)` — compile script to ECMAScript 5
 
+The name of the output file can be overridden in your `config.cson`:
+
+```cson
+"build-tsc":
+  out
+```
+
 ### Shortcuts
 
 Here's a reminder of the default shortcuts you can use with this package:
