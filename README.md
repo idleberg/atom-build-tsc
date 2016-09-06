@@ -5,7 +5,7 @@
 [![apm](https://img.shields.io/apm/dm/build-tsc.svg?style=flat-square)](https://atom.io/packages/build-tsc)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-tsc.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-tsc)
 [![David](https://img.shields.io/david/idleberg/atom-build-tsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-tsc#info=dependencies)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-tsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-tsc#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-tsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-tsc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `tsc`, compiles TypeScript into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
