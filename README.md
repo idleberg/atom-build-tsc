@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-tsc build-tsc
 Install Node dependencies:
 
 ```bash
-cd build-tsc
-npm install
+$ cd build-tsc
+$ npm install
 ```
 
 ## Usage
