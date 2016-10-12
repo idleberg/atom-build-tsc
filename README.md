@@ -35,10 +35,9 @@ Clone repository as `build-tsc`:
 $ git clone https://github.com/idleberg/atom-build-tsc build-tsc
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-tsc
 $ yarn || npm install
 ```
 
