@@ -17,7 +17,7 @@ Install `build-tsc` from Atom's [Package Manager](http://flight-manual.atom.io/u
 
 `$ apm install build-tsc`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
