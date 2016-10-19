@@ -51,6 +51,7 @@ Available targets:
 
 * `TypeScript` — compile script  to ECMAScript 3 (default)
 * `TypeScript (ES5)` — compile script to ECMAScript 5
+* `TypeScript (user)` — compile script with arguments specified in the package settings
 
 The name of the output file can be overridden in your `config.cson`, all [standard replacements](https://github.com/noseglid/atom-build#replacements) can be used:
 
