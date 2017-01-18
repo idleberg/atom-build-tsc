@@ -1,6 +1,6 @@
 {
   "name": "build-tsc",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Atom Build provider for tsc, compiles TypeScript",
   "repository": "https://github.com/idleberg/atom-build-tsc",
   "license": "MIT",
