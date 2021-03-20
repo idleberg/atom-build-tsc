@@ -3,6 +3,7 @@ import { EventEmitter } from 'events';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import { spawnSync } from 'child_process';
 import { which } from './util';
+import meta from '../package.json';
 
 export { configSchema as config };
 
@@ -10,6 +11,7 @@ export function provideBuilder() {
   return class TscProvider extends EventEmitter {
     constructor(cwd) {
       super();
+
       this.cwd = cwd;
       atom.config.observe('build-tsc.customArguments', () => this.emit('refresh'));
       atom.config.observe('build-tsc.targetFile', () => this.emit('refresh'));
@@ -89,6 +91,6 @@ export function provideBuilder() {
 // This package depends on build, make sure it's installed
 export function activate() {
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies('build-tsc');
+    satisfyDependencies(meta.name);
   }
 }
