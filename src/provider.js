@@ -27,11 +27,10 @@ export function provideBuilder() {
       }
 
       const cmd = spawnSync(which(), ['tsc']);
-      if (!cmd.stdout.toString()) {
-        return false;
-      }
 
-      return true;
+      return !cmd?.stdout?.toString()
+        ? false
+        : true;
     }
 
     settings() {
