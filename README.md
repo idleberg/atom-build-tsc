@@ -1,10 +1,10 @@
 # build-tsc
 
-[![apm](https://img.shields.io/apm/l/build-tsc.svg?style=flat-square)](https://atom.io/packages/build-tsc)
-[![apm](https://img.shields.io/apm/v/build-tsc.svg?style=flat-square)](https://atom.io/packages/build-tsc)
-[![apm](https://img.shields.io/apm/dm/build-tsc.svg?style=flat-square)](https://atom.io/packages/build-tsc)
+[![apm](https://flat.badgen.net/apm/license/build-tsc)](https://atom.io/packages/build-tsc)
+[![apm](https://flat.badgen.net/apm/v/build-tsc)](https://atom.io/packages/build-tsc)
+[![apm](https://flat.badgen.net/apm/dl/build-tsc)](https://atom.io/packages/build-tsc)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-tsc)](https://circleci.com/gh/idleberg/atom-build-tsc)
-[![David](https://img.shields.io/david/idleberg/atom-build-tsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-tsc)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-tsc)](https://david-dm.org/idleberg/atom-build-tsc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `tsc`, compiles TypeScript into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
