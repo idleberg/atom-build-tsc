@@ -1,8 +1,8 @@
 import { configSchema, getConfig } from './config';
 import { EventEmitter } from 'events';
+import { name } from '../package.json';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import Logger from './log';
-import meta from '../package.json';
 import which from 'which';
 
 export { configSchema as config };
@@ -95,7 +95,7 @@ export function activate() {
 
   // This package depends on build, make sure it's installed
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies(meta.name);
+    satisfyDependencies(name);
   }
 }
 
